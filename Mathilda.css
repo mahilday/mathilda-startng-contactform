@@ -1,0 +1,191 @@
+*{
+    padding:0;
+    margin:0;
+    /* box-sizing:border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+/* header */
+header {
+    display: flex;
+    justify-content: flex-start;
+    width:100%;
+    background-image: linear-gradient(to bottom,rgba(236, 199, 118, 0.952),white)
+
+}
+.name{
+    margin:100px 20px 40px;
+    color:black;
+
+}
+.row{
+    margin: 20px;
+}
+.mailandphone{
+    display: flex;
+    width:100%;
+}
+.mailandphone p:last-child{
+    margin-left:25px;
+}
+.name a{
+    text-decoration: none;
+    color:black;
+
+}
+img{
+    border-radius:50%;
+    padding:40px;
+}
+/* professional summary */
+summary{
+    width:90%;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+    border-top:1px dashed grey;
+    border-bottom:1px dashed grey;
+    padding: 50px;
+}
+    summary h2{
+    border-left:1px solid grey;
+    /* border-right:1px dashed grey; */
+    /* background-color: rgba(236, 199, 118, 0.6); */
+    width: 30%;
+    margin: auto;
+    /* border-radius: 10px; */
+}
+details:focus{
+    outline-color:transparent;
+}
+/* skills */
+section .allskills{
+    /* padding:30px; */
+    /* padding-left: -100px; */
+    display:flex;
+    width:100%;
+    margin-left: 280px;
+    height: 300px;
+}
+section .allskills li{
+   margin:60px;
+}
+.first{
+    /* border-right:1px dashed grey */
+}
+.skills{
+    width:10%;
+    text-align:center;
+    margin-bottom: 50px;
+    margin-left:580px;
+    border-left:1px solid grey;
+}
+/* work history */
+.work{
+    border-top: 1px dashed grey;
+    width:90%;
+    margin: auto;
+    border-bottom: 1px dashed grey
+
+}
+section ol{
+    /* padding:30px; */
+    /* padding-left: -100px; */
+    display:flex;
+    width:100%;
+    /* margin-left:d 280px; */
+    height: 400px;
+    margin-left:100px;
+}
+section td ol li{
+    width: 90%;
+    margin: 10px 10px 10px;
+}
+section td ol div {
+    height:15%;
+}
+/* education */
+section h2{
+    width:15%;
+    text-align:center;
+    margin-bottom: 50px;
+    margin-left:550px;
+    margin-top:70px;
+    border-left:1px solid grey;
+}
+
+.education .paragraph{
+    margin-left:100px;
+}
+.education div{
+    display:flex;
+    margin-left:200px;
+    margin-bottom:50px;
+}
+.education{
+    border-bottom: 1px dashed grey;
+    width:90%;
+    margin:auto;
+}
+/* form */
+form{
+    border:1px solid grey;
+    width:50%;
+    margin: 5% auto;
+    box-shadow: 5px 3px 20px 0.5px ;
+    /* background-image: linear-gradient(to bottom, rgb(250, 194, 91),rgba(236, 199, 118, 0.952),whitesmoke); */
+    background-color:beige;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height:90%;
+    margin:20px auto;
+}
+label{
+    color:rgb(235, 176, 49);
+    font-weight:700;
+}
+form input{
+    margin-bottom:1%;
+    height:20%;
+}
+form input:focus, textarea:focus{
+    outline-color: rgba(236, 199, 118, 0.952); 
+}
+form h3{
+    text-transform: uppercase;
+    margin:10px auto;
+    color:rgb(235, 176, 49);
+}
+textarea{
+    margin-bottom:10px;
+}
+#submit{
+    width:150px;
+    height:50px;
+    border:none;
+    background-color: rgba(252, 172, 24, 0.822);
+    border-radius:10px;
+    text-transform: uppercase;
+    font-weight:700;
+    color:white;
+}
+
+/* footer */
+footer h2{
+    width:15%;
+    text-align:center;
+    margin-bottom: 10px;
+    margin-left:620px;
+    margin-top:30px;
+    border-left:1px solid grey;
+}
+table{
+    margin:auto;
+}
+td{
+    margin-left:20px;
+}
+
+
